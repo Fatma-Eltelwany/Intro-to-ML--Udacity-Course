@@ -12,4 +12,4 @@
 - Mathematical explanation of RBF: https://www.youtube.com/watch?v=Q0ExqOphnW0
 - Starting the mini project I faced this error: "UnpicklingError: the STRING opcode argument must be quoted"
 that happened due to changing pickle to joblib and other changes when the starter code was migrated to python 3.
-- In this [issue] (https://github.com/udacity/ud120-projects/issues/351) there is a fix to this error.
+- In this [issue](https://github.com/udacity/ud120-projects/issues/351) there is a fix to this error.
