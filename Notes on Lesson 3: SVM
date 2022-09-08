@@ -1,0 +1,12 @@
+- SVMs draws hyperplanes to separate data points
+- They are mainly used for classification but can be used for regression as well
+- The best hyperplane is the one that maximizes the margin, that is the distance between nearest points from either classes
+- Two important parameters in SKlearn SVMs are C and gamma
+- C: controls the tradeoff between smoothness and correctness where a high value favors correctness
+- gamma: controls how fine "intricate" the decision boundary is where a high value is more intricate
+- gamma: formally, it controls how much far/close points matter where high value means close points weigh more and far ones are mostly neglected
+- Q: what defines a close/far point?
+- Q: how does gamma and C affect each other?
+- The kernel in SVC in SKlearn has a default value 'rbf'
+- RBF: Radial Basis Function. RBF maps the features to a infinite dimension vector space represented in an infinite sum of polynomials.
+- Mathematical explanation of RBF: https://www.youtube.com/watch?v=Q0ExqOphnW0
