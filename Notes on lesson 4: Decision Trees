@@ -1,6 +1,6 @@
 - Decision trees are used for classification and regression.
 - They can deal with non-linearity through splitting features at certain boundaries
-- Data imputrity is how clear a certain domain is of points that belong to another domain, it is measure through entropy
+- Data imputrity is how clear a certain domain is of points that belong to another domain, it is measured through entropy
 - Entropy: controls where a decision tree decides to split the data (that is at which values of the features the tree branches). 
   It is a measure of data impurity 
 - The cost of using the tree (i.e., predicting data) is logarithmic in the number of data points used to train the tree.
