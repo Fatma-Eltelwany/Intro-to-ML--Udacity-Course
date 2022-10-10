@@ -1,0 +1,14 @@
+- Evaluation of a regression model:
+Sum of absolute errors versus Sum of squared errors
+Sum of squared errors wins because absolute errors don't define a single line
+that is, multiple lines could have the same sum of absolute errors while they vary in 
+their performance as regressors. On the other hand, the sum of squared errors
+uniquely defines a line.
+- One of the pitfalls of the sum of squared error is that it necessarily grows with 
+data points. 
+- A better evaluation metric is the R squared:
+It is independent of the number of the data points
+calculation: r^2 = 1 - (unexplained variation/ total variation)
+                 = 1 - (sum of squared errors/ sum of the distance the data is away from the mean all squared)
+
+Its range is 0 < r^2 < 1, the bigger the better
